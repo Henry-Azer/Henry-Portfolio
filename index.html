@@ -1,0 +1,416 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- References links -->
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+
+    <!-- Tab icon and Title -->
+    <link rel="icon" href="/images/tab-icon.png">
+    <title>Henry Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+    </div>
+
+    <!-- Navbar  -->
+    <header>
+        <input id="nav-toggle" type="checkbox">
+        <a href="#" class="logo">Henry</a>
+        <ul class="menu">
+            <li><a href="#parallax">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </header>
+    <section class="banner"></section>
+
+    <!-- Top banner -->
+    <section id="parallax" class="top-banner">
+        <div class="top-banner-inner site-container">
+            <div class="top-banner-image">
+                <img class="top-banner-img" src="./images/profile.jpg" alt="henry image">
+            </div>
+
+            <div class="top-banner-text">
+                <div class="top-banner-text-up">
+                    <span class="brand-span">Hello! I'm</span>
+                    <h2 class="top-banner-h2">Henry</h2>
+                </div>
+
+                <div class="top-banner-text-down">
+                    <h2 class="top-banner-h2">Azer</h2>
+                    <span class="brand-span">Full Stack Java Developer</span>
+                </div>
+                <p>I am twenty years old and I work hard on myself to keep pace with the software development with 2+
+                    years of self study.</p>
+                <form method="get" action="/cv/henry-cv.pdf" target="_blank">
+                    <button type="submit" class="btn-cv" >Download CV</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about-me">
+        <div class="about-me-inner site-container">
+            <article class="portfolio-wrapper">
+                <div class="portfolio-img">
+                    <img src="./images/about-me.jpg" class="about-me-profile">
+                </div>
+
+                <div class="portfolio-bottom">
+                    <div class="portfolio-name">
+                        <span>H</span>
+                        <h2 class="universal-h2">enry Azer</h2>
+                    </div>
+                    <p>Henry Azer is a Full Stack Java Developer. It was a dream and now it is growing.</p>
+                </div>
+            </article>
+
+            <div class="about-me-text">
+                <div class="about-me-slider">
+                    <div class="about-me-single-slide">
+                        <h2 class="universal-h2 universal-h2-bckg">About me</h2>
+                        <p><span>M</span>y name is Henry Azar, I am twenty years old, I was born in Sohag Governorate,
+                            and now I live in Cairo in the State of Egypt. I am currently studying a Bachelor of
+                            Computer Science in Future Academy in the second grade. I look forward to working and
+                            keeping up with the development that occurs every day. My hobby since I was young is
+                            programming and I look forward to do a lot, to learn more and expand.</p>
+                        <h5 class="h5">Oct - 2020</h5>
+                    </div>
+
+                    <div class="about-me-single-slide">
+                        <h2 class="universal-h2 universal-h2-bckg">Back-End</h2>
+                        <p><span>I</span>n back end, I work in Java language. I started learning the basics of
+                            programming, object orientated and advanced programming, then I studied Data Structure Liner
+                            and Non-linear and learned Design Patterns, then I moved to Database and learned MySQl in
+                            365 data science course.
+                            After that, I moved to Spring Frameworks complete from the XML Configuration until I
+                            learned Spring Boot and spring Rest and make a lot of projects with them.</p>
+                        <h5 class="h5">Jul - 2019</h5>
+                    </div>
+
+                    <div class="about-me-single-slide">
+                        <h2 class="universal-h2 universal-h2-bckg">Front-End</h2>
+                        <p><span>I</span>n front end, I learned the basics in HTML5 and I learned CSS3. Then I
+                            learned how to insert some JavaScript and moved to the Bootstrap, then I learned JQuery
+                            library and used it, and currently I am working on developing using their and creativity
+                            with
+                            these tools while I learn in the next step and work on myself more and move to the React
+                            library in order to expand with knowledge and creativity after that.</p>
+                        <h5 class="h5">Aug - 2020</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-me-bckg"></div>
+    </section>
+
+    <!-- Top Skills -->
+    <section class="container top-skills" id="skills">
+        <h2 class="universal-h2 universal-h2-bckg">Top Skills</h2>
+        <div class="skills row">
+
+            <div class="single-skill col-md-3">
+                <a class="single-skill-img">
+                    <img class="img1" alt="java ee image"
+                        src="https://ocs-consulting.be/wp-content/uploads/2018/03/java-ee-logo.png">
+                </a>
+                <div class="rating">
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                </div>
+            </div>
+
+            <div class="single-skill col-md-3">
+                <a class="single-skill-img">
+                    <img class="img2" alt="spring framework image"
+                        src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/99937611/original/d1c6ac81f536b60b0df88472d3582cdc4ad644d4/spring-mvc-boot-application.png">
+                </a>
+                <div class="rating">
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                </div>
+            </div>
+
+            <div class="single-skill col-md-3">
+                <a class="single-skill-img">
+                    <img class="img3" alt="data structure image"
+                        src="https://img.pngio.com/data-science-learn-for-life-nigeria-data-structure-png-350_250.png">
+                </a>
+                <div class="rating">
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                </div>
+            </div>
+
+            <div class="single-skill col-md-3">
+                <a class="single-skill-img">
+                    <img class="img4" src="images/mysql_PNG23.png" alt="mysql image">
+                </a>
+                <div class="rating">
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                    <span>&#9734;</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Counter -->
+    <section class="counters">
+        <div class="counter-inner site-container">
+            <div class="single-count">
+                <span class="count" data-count="2">0</span>
+                <div class="single-count-text">
+                    <img src="images/work_experience-512.png" alt="self stdy icon">
+                    <p>Self Study<br>Years</p>
+                </div>
+            </div>
+
+            <div class="single-count">
+                <span class="count" data-count="37">0</span>
+                <div class="single-count-text">
+                    <img src="/images/courses.png" alt="courses icon">
+                    <p id="countTitle">Courses</p>
+                </div>
+            </div>
+
+            <div class="single-count">
+                <span class="count" data-count="41">0</span>
+                <div class="single-count-text">
+                    <img src="/images/background-gears.png" alt="skills icon">
+                    <p id="countTitle">skills</p>
+                </div>
+            </div>
+
+            <div class="single-count">
+                <span class="count" data-count="3.9">0</span>
+                <div class="single-count-text">
+                    <img src="/images/gpa.png" alt="gpa icon">
+                    <p>Current <br> GPA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECENT PROJECTS -->
+    <section class="recent-projects" id="projects">
+        <div class="site-container">
+            <h2 class="universal-h2 universal-h2-bckg recent-h2">Recent Projects</h2>
+            <div class="project-slider project-inner">
+
+                <div class="single-project">
+                    <div class="single-project-img">
+                        <a href="https://henry-hotel-reservation.herokuapp.com" target="_blank">
+                            <img src="./images/hotel-reservation.jpg" alt="hotel site image">
+                        </a>
+                    </div>
+                    <div class="single-project-text">
+                        <h4>Hotel-Reservation</h4>
+                        <span>On Sep - 2020 </span>
+                        <br>
+                        <p>Hotel Reservation System, It’s a Web project using Spring Framework in java.</p>
+                        <p>
+                            Hosted.
+                            <br>Registered user:
+                            <br>User: henry@yahoo.com Pass: henry0123
+                        </p>
+                    </div>
+                </div>
+
+                <div class="single-project">
+                    <div class="single-project-img">
+                        <a href="#" target="_blank">
+                            <img src="./images/cv.png" alt="cv site image">
+                        </a>
+                    </div>
+                    <div class="single-project-text">
+                        <h4>Henry-Portfolio</h4>
+                        <span>On Oct - 2020 </span>
+                        <br>
+                        <p>Henry Azer Portfolio Page, It's a web project with just front end, It contains my CV,
+                            information about me, my work and communication with me.<br>Hosted.</p>
+                    </div>
+                </div>
+
+                <div class="single-project">
+                    <div class="single-project-img">
+                        <a href="https://henry-employee-directory.herokuapp.com" target="_blank">
+                            <img src="./images/employee.jpg" alt="employee site image">
+                        </a>
+                    </div>
+                    <div class="single-project-text">
+                        <h4>Employee-Tracker</h4>
+                        <span>On Aug - 2020 </span>
+                        <br>
+                        <p>Hotel directory, It’s a Web CRUD project using Spring Framework in java.</p>
+                        <p>
+                            Hosted.
+                            <br>Registered user:
+                            <br>User: henry <br> Pass: 0123
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quotes -->
+    <section class="quotes" id="reviews">
+        <div class="site-container">
+            <h2 class="universal-h2 universal-h2-bckg">What People Are Saying</h2>
+            <div class="about-me-slider">
+                <div>
+                    <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veniam assumenda quaerat
+                        cum labore est placeat sit, sapiente in exercitationem dolor obcaecati, consequuntur ducimus
+                        nostrum officiis aut, impedit reprehenderit accusantium. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Consectetur veniam assumenda quaerat
+                        cum labore est placeat sit, sapiente in exercitationem dolor obcaecati.”</p>
+                    <img src="./images/quotes.svg" alt="quotes svg">
+                    <h4>Person Name</h4>
+                </div>
+                <div>
+                    <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veniam assumenda quaerat
+                        cum labore est placeat sit, sapiente in exercitationem dolor obcaecati, consequuntur ducimus
+                        nostrum officiis aut, impedit reprehenderit accusantium. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Consectetur veniam assumenda quaerat
+                        cum labore est placeat sit, sapiente in exercitationem dolor obcaecati.”</p>
+                    <img src="./images/quotes.svg" alt="quotes svg">
+                    <h4>Person Name</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social -->
+    <section class="socials" id="contact">
+        <div class="site-container">
+            <div class="social">
+                <h5>Follow me!!</h5>
+                <div class="social-icons">
+                    <a href="mailto:henryazer@outlook.com" target="_blank"><img src="/images/outlook.png" /></a>
+                    <a href="https://www.linkedin.com/in/henry-azer-1220121a7/" target="_blank"><img
+                            src="/images/linkedIn.png" /></a>
+                    <a href="https://github.com/Henry-Azer" target="_blank"><img src="/images/github.png" /></a>
+                    <a href="https://www.facebook.com/HeNaRyAzEr/" target="_blank"><img
+                            src="/images/facebook.png" /></a>
+                    <a href="https://wa.me/201207885279" target="_blank"><img src="/images/whatsApp.png"
+                            class="whats-img" /></a>
+                </div>
+                <h5>Share it!</h5>
+            </div>
+        </div>
+    </section>
+    <!-- Social -->
+
+    <!-- Contact me-->
+    <section class="contact-me">
+        <div class="container-contact">
+            <div class="wrap-contact">
+
+                <form class="contact-form" method="post" name="form" netlify>
+                    <span class="contact-form-title">
+                        Contact Me
+                    </span>
+                    <div class="wrap-input rs1-wrap-input">
+                        <span class="label-input">Your Name</span>
+                        <input id="element1" class="input" type="text" name="name" placeholder="Enter your name"
+                            pattern="^[a-zA-Z]{4,}(?: [a-zA-Z]+){0,2}$" required>
+                        <span class="focus-input"></span>
+                    </div>
+
+                    <div class="wrap-input rs1-wrap-input">
+                        <span class="label-input">Email</span>
+                        <input id="element2" class="input" type="email" name="email"
+                            placeholder="Enter your email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                            required>
+                        <span class="focus-input"></span>
+                    </div>
+
+                    <div class="wrap-input" data-validate="Message is required">
+                        <span class="label-input">Message</span>
+                        <textarea id="element3" class="input" name="message" placeholder="Your message here..."
+                            required></textarea>
+                        <span class="focus-input"></span>
+                    </div>
+
+                    <div class="container-contact-form-btn">
+                        <input type="submit" name="submit" value="Submit" class="btn-message">
+                    </div>
+                </form>
+                
+                <span class="contact-more">
+                    For direct contact, My phone number: <span class="contact-more-highlight">+20 120 788 5279</span>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="site-container site-footer-inner">
+            <p>© 2020 Portfolio | Design by: Henry-Azer | All rights Reserved.</p>
+            <div class="social-icons">
+                <a href="mailto:henryazer@outlook.com" target="_blank"><img src="/images/outlook.png" /></a>
+                <a href="https://www.linkedin.com/in/henry-azer-1220121a7/" target="_blank"><img
+                        src="/images/linkedIn.png" /></a>
+                <a href="https://github.com/Henry-Azer" target="_blank"><img src="/images/github.png" /></a>
+                <a href="https://www.facebook.com/HeNaRyAzEr/" target="_blank"><img src="/images/facebook.png" /></a>
+                <a href="https://wa.me/201207885279" target="_blank"><img src="/images/whatsApp.png"
+                        class="whats-img" /></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
